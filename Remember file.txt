@@ -1,0 +1,4 @@
+Remember!
+
+Go to the index file and click on this file. we get multiple web page
+like that home page, about page, blog page, course page,contact page.
