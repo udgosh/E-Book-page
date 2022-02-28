@@ -34,5 +34,5 @@ let t = setInterval(function () {
 
 // Function to redirect user to payment gateway
 const paymentGateway=()=>{
-    location.href='http://localhost:3000/payment';
+    location.assign('/payment');
 };
