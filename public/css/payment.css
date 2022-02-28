@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.payment-section{
+    display: flex;
+    justify-content: center;
+}
+
+.payment-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35rem;
+    height: 40rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    box-shadow: 10px 10px 21px 2px #888888;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.payment-details{
+    width: 35rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #072654;
+    color: white;
+    border-radius:2rem 2rem 0rem 0rem
+}
+
+.product-price{
+    background-color: white;
+    color: black;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-gateway{
+    width: 35rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fffef6;
+    border-radius: 0rem 0rem 2rem 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:700px) and (min-width:550px){
+    .payment-conatiner{
+        width:30rem;
+    }
+    .payment-details{
+        width:30rem;
+    }
+    .payment-gateway{
+        width:30rem;
+    }
+}
+
+@media only screen and (max-width:549px) and (min-width:450px){
+    .payment-conatiner{
+        width:25rem;
+    }
+    .payment-details{
+        width:25rem;
+    }
+    .payment-gateway{
+        width:25rem;
+    }
+}
+
+@media only screen and (max-width:450px) and (min-width:300px){
+    .payment-conatiner{
+        width:20rem;
+        height:30rem;
+        margin-top:7rem;
+        border-radius: 1rem;
+    }
+    .payment-details{
+        width:20rem;
+        height:15rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+    .payment-gateway{
+        width:20rem;
+        height:30rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+}
