@@ -5,8 +5,7 @@ const ejs = require('ejs')
 const staticPath = path.join(__dirname+"/../public/")
 const templatePath = path.join(__dirname+'/../templates/views')
 // const partialPath = path.join(__dirname+'/../templates/partials')
-
-let order_id_var;
+const port = process.env.PORT || 3000;
 
 app.set('view engine','ejs')
 app.set('views',templatePath)
@@ -25,7 +24,7 @@ app.get('/payment',(req,res)=>{
     res.render('payment')
 });
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('server is listening at http://localhost:3000');
 })
 
