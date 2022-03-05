@@ -2,3 +2,13 @@ Remember!
 
 Go to the index file and click on this file. we get multiple web page
 like that home page, about page, blog page, course page,contact page.
+
+
+
+
+
+
+
+Video Link -> https://www.pexels.com/video/close-up-view-of-a-person-reading-a-book-2795307/
+
+NOTE -- Before running project download sample video from above link and rename it as "sample.mp4" and create "video" folder public directory. Copy sample.mp4 in video folder
