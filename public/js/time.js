@@ -31,3 +31,9 @@ let t = setInterval(function () {
     }
 
 }, 1000);
+
+
+// Function to redirect user to payment gateway
+const paymentGateway=()=>{
+    location.assign('/payment');
+};
